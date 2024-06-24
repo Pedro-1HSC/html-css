@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5 </title>
+</head>
+<body><h1>imagem dinâmica</h1>
+<p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e dimnua o  tamanho do  seu navegor .
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/150.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagen flexivel"></picture>
+    <h1>reproduzindo audio</h1>
+     <p>vamos aprender a reproduzir audio 
+        <audio controls>
+        <source src="midia/WhatsApp Ptt 2024-05-24 at 15.53.45.ogg" type="audio/ogg">
+        </audio>
+    <h1>reproduzindo video</h1> 
+    <video width="500" controls poster="imagens/150.png"
+    src="midia/15921892-uhd_3840_2160_50fps.mp4"></video>
+     </p>
+     <h1> trabalhando com videos externos  </h1>
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/HuUz1CUE6aM?si=k9pQ55FuYUgr3c9r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+</p>    
+</body>
+</html>
