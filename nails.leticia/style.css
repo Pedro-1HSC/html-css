@@ -16,16 +16,15 @@ text-shadow: 2px 2px 0px rgba(8, 8, 8, 0.336);}
 
 
 header > nav  {
-     text-decoration: none;
-     padding: px;
+     text-decoration: none;  
      background-color:#cbb8f7; 
-     text-align:left;
+     text-align: left;
      border-radius: 15px }
 
 nav > a {
     text-decoration: none;
     color: black;
-    padding: 10px;
+    padding: 4px;
     transition-duration: 1s;
     text-shadow: 2px 2px 0px rgba(8, 8, 8, 0.096);}
 
@@ -41,8 +40,12 @@ main {
      border-radius: 15px; 
      padding: 10px;}
 
-.imagem-redonda { border-radius: 100px;
-border: 2px solid #39006e;
+.imagem-redonda 
+{
+     border-radius: 50px;
+     border: 2px solid #39006e;
+     width: 97px;
+     height: 97px;
 }
 
 .container{display: inline-block;
